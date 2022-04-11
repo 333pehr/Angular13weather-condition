@@ -1,0 +1,99 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300);
+html,
+body {
+  background-color: #f3f3f3;
+  font-family: "Roboto", sans-serif;
+}
+
+.card {
+  margin: 0 auto;
+  margin-top: 5%;
+  padding: 5px 30px;
+  width: 290px;
+  height: 470px;
+  border-radius: 10px;
+  border: solid 0.5px;
+  background-color: #fff;
+  box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+@-webkit-keyframes open {
+  from {
+    padding: 0 30px;
+    height: 0;
+  }
+  to {
+    height: 470px;
+  }
+}
+
+.Header {
+  font-weight: 500;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 25px;
+  padding-top: 35px;
+  padding-bottom: 55px;
+  color: black;
+}
+
+h3 {
+  float: left;
+  margin-right: 33px;
+  color: #777;
+  font-weight: 400;
+  font-size: 1em;
+}
+
+span {
+  margin-left: 24px;
+  color: #999;
+  font-weight: 300;
+}
+
+table {
+  position: relative;
+  top: 10px;
+  width: 100%;
+  text-align: center;
+}
+@-webkit-keyframes up {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(15px);
+  }
+  50% {
+    opacity: 0;
+    -webkit-transform: translateY(15px);
+  }
+  99% {
+    -webkit-animation-play-state: paused;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.designer {
+  margin-top: 100px;
+  text-align: center;
+  font-style: italic;
+  color: rgb(72, 72, 72);
+}
+
+.Date{
+  height: 150px;
+}
+.label{
+  height: 50px !important;
+}
+#Hours{
+  margin-bottom: 15px;
+  width: 100%;
+  align-content: center;
+}
+#button{
+  margin-top: 40px;
+}
+
+#dateInput{
+  width: 100%;
+}
