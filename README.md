@@ -1,6 +1,6 @@
 # AppWeatherMoody
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.5.
+An application that tell the current temperature of Alanya by using a API
 
 ## Development server
 
